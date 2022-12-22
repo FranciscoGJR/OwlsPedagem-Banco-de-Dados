@@ -628,11 +628,6 @@ create index FKPertence_IND
     
  -- ========= ALIMENTANDO TABELA DE HOTEL [ OK ]
     
-select *
-from trabalhoowl.hotel;
-
--- familiar, ferias, pode Pet
--- RESORT, POUSADA, hotel
 
 --	=== HOTEL 1
 INSERT INTO trabalhoowl.Hotel values
