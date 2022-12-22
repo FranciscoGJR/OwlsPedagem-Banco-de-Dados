@@ -1,0 +1,268 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* --------------------------- Font --------------------------- */
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../font/Ubuntu-M.ttf") format("truetype");
+}
+
+/* --------------------------- Header --------------------------- */
+
+#nav {
+    width: 100%;
+    height: 15vh;
+    background-color: #760000;
+    color: white;
+    font-size: 2em;
+    font-family: Ubuntu;
+    text-align: left;
+    line-height: 14vh;
+} 
+.logo img{
+  padding-left: 10vh;
+    width: 100px;
+}
+/* --------------------------- Form --------------------------- */
+.form{
+    background-color: #760000;
+    
+}
+
+#input-data {
+    width: 90vw;
+    font-family: Ubuntu;
+    margin: 0 auto;
+    display: block;
+}
+
+.input-text {
+    flex: 1;
+    min-width: 210px;
+    margin: 5px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #262626;
+    transition: 0.25s;
+    outline: none;
+}
+
+.input-text:focus{
+    border-color: #760000;
+}
+
+.input-btn {
+    flex: 1;
+    margin: 5px;
+    height: 39px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #262626;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.input-btn:hover {
+    background-color: #383838;
+    border-color: #383838;
+    color: white;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* --------------------------- Table --------------------------- */
+
+#myTable {
+    font-family: Ubuntu;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border-collapse: collapse;
+}
+
+#myTable th {
+    background-color: #760000;
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+#myTable td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#myTable td{
+    padding: 5px;
+}
+
+#myTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#myTable tr:hover {
+    background-color: #ddd;
+}
+
+.remove-btn{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a:link, a:visited {
+  	text-decoration: none;
+  color: black;
+	}
+a:hover {
+	color: #f00
+	}
+a:active {
+	text-decoration: none
+	}
+
+
+/* --------------------------- Menu-Dropdown --------------------------- */
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  padding-left: 4.5%;
+}
+
+.navbar a {
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+  color: #760000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  font-weight: bold;  
+  border: none;
+  outline: none;
+  color: #760000;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #76000066;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #760000;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.dropdown-content a:hover {
+  background-color:  #76000066;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* --------------------------- Footer --------------------------- */
+
+footer {
+  margin-top: auto;
+  background-color:  #760000;
+  color: white;
+  font-size: 20px;
+  font-family: Ubuntu;
+  line-height: 4vh;
+  padding-left: 5%;
+}
+
+.footerbar2{
+  display: inline-block;
+  overflow: hidden;
+  text-align: left;
+  width: 20%;
+}
+
+.footerbar {
+  display: inline-block;
+  text-align: right;
+  width: 70%;
+}
+
+.footerbar a {
+  color: white;
+  padding: 12px 5px;
+  text-decoration: none;
+}
+
+.footerbar a:hover {
+  background-color: #ffffff6f;
+}
+
+.container
+{
+  background-color:  #760000;
+}
+
+.feedback{
+  padding-left: 10vh;
+  font-size: xx-large;
+  background-color: lightblue;
+  align-items: center;
+  max-height: fit-content;
+  display: flex;
+}
+
+.header 
+{
+  background-color:  #760000;
+  height: 20vh;
+  gap: 5vh;
+  align-items: center;
+  display: flex;
+}
