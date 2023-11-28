@@ -4,7 +4,7 @@ Exercício Prático proposto na disciplina de Banco de Dados, ministrada pela Pr
 
 ## ✏️ Descrição do projeto
 
-O Sistema de Gestão de Hotelaria (SGH) é projetado para administrar uma rede hoteleira abrangente no Brasil. Esta rede possui um escritório central e vários hotéis localizados em diferentes regiões do país. Esses hotéis abrangem várias categorias, como hotéis tradicionais, pousadas, apart-hotéis, condomínios de hotéis e resorts. Além disso, os hotéis são segmentados por diferentes perfis de hóspedes, como viajantes a trabalho, famílias, adultos e aqueles que viajam com animais de estimação.
+O Sistema de Gestão de Hotelaria (SGH) é projetado para administrar uma rede hoteleira. Esta rede possui um escritório central e vários hotéis localizados em diferentes regiões. Esses hotéis abrangem várias categorias, como hotéis tradicionais, pousadas, apart-hotéis, condomínios de hotéis e resorts. Além disso, os hotéis são segmentados por diferentes perfis de hóspedes, como viajantes a trabalho, famílias, adultos e aqueles que viajam com animais de estimação.
 
 
 ## 📌 Requisitos do sistema
@@ -61,10 +61,10 @@ _Café da Manhã e Serviço de Quarto:_ Gerenciamento da cozinha, estoque de ali
 
 # Tecnologias utilizadas
 
-*Backend:* O sistema foi desenvolvido principalmente usando a linguagem de programação PHP devido à sua robustez e capacidade de lidar com sistemas complexos.
+*Backend:* O sistema foi desenvolvido principalmente usando a linguagem de programação PHP.
 
-*Banco de Dados:* O banco de dados relacional PostgreSQL foi escolhido para armazenar os dados do sistema de forma organizada e confiável.
+*Banco de Dados:* O banco de dados relacional PostgreSQL foi escolhido para armazenar os dados do sistema.
 
-*Front-End:* Para a criação das interfaces de usuário, foram utilizadas tecnologias como HTML5, CSS3 e JavaScript, proporcionando uma experiência moderna e responsiva.
+*Front-End:* Para a criação das interfaces de usuário, foram utilizadas tecnologias como HTML5, CSS3 e JavaScript.
 
-*Controle de Versão:* A equipe de desenvolvimento utilizou o Git como sistema de controle de versão, permitindo colaboração eficiente e rastreamento de mudanças.
+*Controle de Versão:* A equipe de desenvolvimento utilizou o Git como sistema de controle de versão.
